@@ -2,7 +2,8 @@
 
 
 class Campo2 {
-	int Coherence;
-	int DB;
-	int Tag;
+	public:
+		int Coherence;
+		int DB;
+		int Tag;
 };

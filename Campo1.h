@@ -9,10 +9,15 @@ class Campo1 {
 		bool LRU;
 
 		Campo1() {
-			Coherence = 0;
+			//0->estado inicial
+			//1->M
+			//2->E
+			//3->S
+			//4->I
+			Coherence = 4;
 			DB = 0;
 			Tag = 0;
-			LRU = false;
+			LRU = true;
 		}
 		
 };
